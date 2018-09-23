@@ -1,0 +1,14 @@
+{
+    "compileOnSave": true,
+    "compilerOptions": {
+        "target": "es5",
+        "lib": ["es5", "es2015", "dom", "scripthost"],
+        "sourceMap": true,
+        "removeComments": true,
+        "outDir": "./static/js",
+        "rootDir": "./static/ts"
+    },
+    "include": [
+        "./static/ts/*"
+    ]
+}
